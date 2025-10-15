@@ -39,7 +39,18 @@ while (again == "a")
     {
         Console.WriteLine("nezadali jste celé číslo, zadejte diferenci znovu: ");
     }
-    
+    // výpis vstupních hodnot
+    Console.WriteLine();
+    Console.WriteLine("*****************************");
+    Console.WriteLine("zadali jste tyto hodnoty");
+    Console.WriteLine("první číslo řady: {0}", first);
+    Console.WriteLine("poslední číslo řady: {0}", last);
+    Console.WriteLine("diference: {0}", step);
+    Console.WriteLine("**********************************************");
+    Console.WriteLine("první číslo {0}; poslední číslo {1}; diference {2}" first, last, step);
+    Console.WriteLine("**********************************************");
+    Console.WriteLine();
+
 
 
 
