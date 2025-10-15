@@ -24,7 +24,7 @@ while (again == "a")
     {
         Console.WriteLine("nezadali jste celé číslo, zadejte první číslo řady znovu: ");
     }
-    
+
 
     Console.WriteLine("Zadejte poslední číslo řady (celé číslo): ");
     int last;
@@ -33,8 +33,8 @@ while (again == "a")
     {
         Console.WriteLine("nezadali jste celé číslo, zadejte poslední číslo řady znovu: ");
     }
-    
-        Console.WriteLine("Zadejte diferenci (celé číslo): ");
+
+    Console.WriteLine("Zadejte diferenci (celé číslo): ");
     int step;
 
     while (!int.TryParse(Console.ReadLine(), out step))
@@ -49,7 +49,7 @@ while (again == "a")
     Console.WriteLine("poslední číslo řady: {0}", last);
     Console.WriteLine("diference: {0}", step);
     Console.WriteLine("**********************************************");
-    Console.WriteLine("první číslo {0}; poslední číslo {1}; diference {2}" first, last, step);
+    Console.WriteLine("první číslo {0}; poslední číslo {1}; diference {2}", first, last, step);
     Console.WriteLine("**********************************************");
     Console.WriteLine();
 
@@ -58,7 +58,7 @@ while (again == "a")
     Console.WriteLine("**********************************");
     Console.WriteLine("výpis číselné řady");
     int current = first;
-    while (current <= last) {
+    while (current <= last){
         Console.WriteLine(current);
         current = current + step; // ruční přičtení diference
     }
@@ -66,3 +66,4 @@ while (again == "a")
     Console.WriteLine();
     Console.WriteLine("pro opakování stiskněte a");
     again = Console.ReadLine();
+    }
