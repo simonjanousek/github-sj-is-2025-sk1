@@ -1,0 +1,15 @@
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\bin\Debug\net9.0\program-002-součet-cifer.exe
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\bin\Debug\net9.0\program-002-součet-cifer.deps.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\bin\Debug\net9.0\program-002-součet-cifer.runtimeconfig.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\bin\Debug\net9.0\program-002-součet-cifer.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\bin\Debug\net9.0\program-002-součet-cifer.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\obj\Debug\net9.0\program-002-součet-cifer.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\obj\Debug\net9.0\program-002-součet-cifer.AssemblyInfoInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\obj\Debug\net9.0\program-002-součet-cifer.AssemblyInfo.cs
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\obj\Debug\net9.0\program-002-součet-cifer.csproj.CoreCompileInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\obj\Debug\net9.0\program-002-součet-cifer.sourcelink.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\obj\Debug\net9.0\program-002-součet-cifer.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\obj\Debug\net9.0\refint\program-002-součet-cifer.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\obj\Debug\net9.0\program-002-součet-cifer.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\obj\Debug\net9.0\program-002-součet-cifer.genruntimeconfig.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-002-součet-cifer\obj\Debug\net9.0\ref\program-002-součet-cifer.dll

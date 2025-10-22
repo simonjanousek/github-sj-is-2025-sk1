@@ -1,0 +1,5 @@
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program003b-nejvetsi-ze-tri-cisel\obj\Debug\net9.0\program003b-nejvetsi-ze-tri-cisel.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program003b-nejvetsi-ze-tri-cisel\obj\Debug\net9.0\program003b-nejvetsi-ze-tri-cisel.AssemblyInfoInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program003b-nejvetsi-ze-tri-cisel\obj\Debug\net9.0\program003b-nejvetsi-ze-tri-cisel.AssemblyInfo.cs
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program003b-nejvetsi-ze-tri-cisel\obj\Debug\net9.0\program003b-nejvetsi-ze-tri-cisel.csproj.CoreCompileInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program003b-nejvetsi-ze-tri-cisel\obj\Debug\net9.0\program003b-nejvetsi-ze-tri-cisel.sourcelink.json

@@ -1,59 +1,51 @@
-using System.Globalization;
+﻿using System.Globalization;
 
 string again = "a";
-while (again == "a")
+while (again =="a")
 {
     Console.Clear();
-    Console.WriteLine("*********************");
-    Console.WriteLine("********** Součet Cifer **********");
-    Console.WriteLine("************************");
-    Console.WriteLine("************ SJ *************");
-    Console.WriteLine("*********************");
+    Console.WriteLine("***********************************");
+    Console.WriteLine("***** Ciferný součet a součin *****");
+    Console.WriteLine("***********************************");
+    Console.WriteLine("*********** Tomáš Žižka ***********");
+    Console.WriteLine("***********************************");
     Console.WriteLine();
 
-
-
- 
-
-    //Vstup hodnoty do programu 
-    Console.WriteLine("Zadejte číslo pro nějž chcete určit součet a součin cifer (celé číslo): ");
+    //Vstup hodnoty do programu
+    Console.Write("Zadejte celé číslo pro nějž chcete určit součet a součin cifer: ");
     int number;
-
- 
-
- 
-
- 
 
     while (!int.TryParse(Console.ReadLine(), out number))
     {
-        Console.WriteLine("nezadali jste celé číslo, zadejte číslo pro nějž chcete určit znovu: ");
+        Console.Write("Nezadali jste celé číslo. Zadejte ZNOVU celé číslo pro nějž chcete určit součet a součin cifer: ");
     }
 
-
     int suma = 0;
-    int = numberBackup = number;
-    int = Digit;
+    int numberBackup = number;
+    int digit;
 
     if (number < 0) {
         number = -number;
     }
+
     while (number >= 10) {
-        digit = number % 10; //zbytek po dělení 10 budou určovat cifry
+        digit = number % 10; // zbytek po dělení 10 nám bude určovat jednotlivé cifry (zprava)
         number = (number - digit) / 10;
-        Console.WriteLine("digit = {0}", digit);
+        Console.WriteLine("Zbytek = {0}", digit);
         suma = suma + digit;
-
     }
-    Console.WriteLine("zbytek = {0}", number);
+    Console.WriteLine("Zbytek = {0}", number);
 
-    // nesmíme zapomenout přičíst poslední číslici do sumy
+    // nesmíme zapomenout příčíst poslední číslici do sumy
     suma = suma + number;
 
     Console.WriteLine();
-Console.WriteLine("součet cifer čísal {0} je {1}",numberBackup, suma)
+    Console.WriteLine("Součet cifer čísla {0} je {1}",numberBackup, suma);
+
 
     Console.WriteLine();
-    Console.WriteLine("pro opakování stiskněte a");
+    Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
     again = Console.ReadLine();
+
+
 }
