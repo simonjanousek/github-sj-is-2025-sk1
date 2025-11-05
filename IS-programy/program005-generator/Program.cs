@@ -46,7 +46,7 @@ while (again == "a")
     Console.WriteLine("počet čísel: {0}; dolní mez {1}; horní mez {2}", n, lowerBound, upperBound);
     Console.WriteLine("*************************");
 
-    
+
  int[] myRandNumbs = new int[n];
 
     //deklarace pole
@@ -59,7 +59,7 @@ while (again == "a")
     for (int i = 0; i < n ; i++)
     {
 
-        myRandNumbs[i] = myRandNumbs.Next(lowerBound, upperBound);
+        myRandNumbs[i] = myRandNumb.Next(lowerBound, upperBound);
         Console.Write("{0}; ", myRandNumbs[i]);
         
     }
