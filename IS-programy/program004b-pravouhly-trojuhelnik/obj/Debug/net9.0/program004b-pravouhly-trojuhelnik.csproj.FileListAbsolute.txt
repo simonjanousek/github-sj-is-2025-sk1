@@ -1,0 +1,15 @@
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\bin\Debug\net9.0\program004b-pravouhly-trojuhelnik.exe
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\bin\Debug\net9.0\program004b-pravouhly-trojuhelnik.deps.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\bin\Debug\net9.0\program004b-pravouhly-trojuhelnik.runtimeconfig.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\bin\Debug\net9.0\program004b-pravouhly-trojuhelnik.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\bin\Debug\net9.0\program004b-pravouhly-trojuhelnik.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\obj\Debug\net9.0\program004b-pravouhly-trojuhelnik.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\obj\Debug\net9.0\program004b-pravouhly-trojuhelnik.AssemblyInfoInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\obj\Debug\net9.0\program004b-pravouhly-trojuhelnik.AssemblyInfo.cs
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\obj\Debug\net9.0\program004b-pravouhly-trojuhelnik.csproj.CoreCompileInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\obj\Debug\net9.0\program004b-pravouhly-trojuhelnik.sourcelink.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\obj\Debug\net9.0\program004b-pravouhly-trojuhelnik.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\obj\Debug\net9.0\refint\program004b-pravouhly-trojuhelnik.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\obj\Debug\net9.0\program004b-pravouhly-trojuhelnik.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\obj\Debug\net9.0\program004b-pravouhly-trojuhelnik.genruntimeconfig.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program004b-pravouhly-trojuhelnik\obj\Debug\net9.0\ref\program004b-pravouhly-trojuhelnik.dll

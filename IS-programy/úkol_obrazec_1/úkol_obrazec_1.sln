@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "úkol_obrazec_1", "úkol_obrazec_1.csproj", "{A046EAD0-B8C9-39BF-0589-3439694FB84D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A046EAD0-B8C9-39BF-0589-3439694FB84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A046EAD0-B8C9-39BF-0589-3439694FB84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A046EAD0-B8C9-39BF-0589-3439694FB84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A046EAD0-B8C9-39BF-0589-3439694FB84D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5BC1F9C-9532-4050-9676-58A2F69B125E}
+	EndGlobalSection
+EndGlobal
