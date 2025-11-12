@@ -1,5 +1,4 @@
-﻿static void Main()
-    {
+﻿   {
         string again = "a";
 
         while (again == "a")

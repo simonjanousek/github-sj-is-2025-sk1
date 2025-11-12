@@ -1,0 +1,15 @@
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\obj\Debug\net9.0\program006a-max-min.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\obj\Debug\net9.0\program006a-max-min.AssemblyInfoInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\obj\Debug\net9.0\program006a-max-min.AssemblyInfo.cs
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\obj\Debug\net9.0\program006a-max-min.csproj.CoreCompileInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\obj\Debug\net9.0\program006a-max-min.sourcelink.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\bin\Debug\net9.0\program006a-max-min.exe
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\bin\Debug\net9.0\program006a-max-min.deps.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\bin\Debug\net9.0\program006a-max-min.runtimeconfig.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\bin\Debug\net9.0\program006a-max-min.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\bin\Debug\net9.0\program006a-max-min.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\obj\Debug\net9.0\program006a-max-min.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\obj\Debug\net9.0\refint\program006a-max-min.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\obj\Debug\net9.0\program006a-max-min.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\obj\Debug\net9.0\program006a-max-min.genruntimeconfig.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program006a-max-min\obj\Debug\net9.0\ref\program006a-max-min.dll

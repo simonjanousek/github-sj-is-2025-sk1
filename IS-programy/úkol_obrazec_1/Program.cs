@@ -14,10 +14,17 @@ while (again == "a")
     //int first = int.Parse(Console.ReadLine());
 
     //Vstup hodnoty do programu - řešený správně
- 
 
-int size = 7;
-int diag = size; // sloupec, kde se má tisknout hvězda
+ Console.Write("Zadejte velikost (celé číslo): ");
+
+int size;
+ while (!int.TryParse(Console.ReadLine(), out size))
+    {
+        Console.Write("Nezadali jste celé číslo. Zadejte znovu: ");
+    }
+    Console.WriteLine();
+
+int diag = size; // diagonála vysoká jako šířka
 
 for (int i = 1; i <= size; i++)
 {
@@ -28,7 +35,7 @@ for (int i = 1; i <= size; i++)
         else
             Console.Write(" ");
     }
-    diag--; // posune diagonálu doleva pro další řádek
+    diag--; // posunutí diag doleva na další řádek o  jedna
     Console.WriteLine();
 }
 

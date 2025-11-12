@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("úkol_obrazec_1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0904732ebe1bd4800f88fb7c71eaff9d8529b911")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c95fd5cb30b6155415656286e326d3627907e231")]
 [assembly: System.Reflection.AssemblyProductAttribute("úkol_obrazec_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("úkol_obrazec_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
