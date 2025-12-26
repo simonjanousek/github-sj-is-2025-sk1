@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "program013-nsd-nsn/1.0.0": {
+        "runtime": {
+          "program013-nsd-nsn.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "program013-nsd-nsn/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

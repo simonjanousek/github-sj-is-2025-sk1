@@ -1,0 +1,15 @@
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\obj\Debug\net9.0\program014-kombinovana-uloha.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\obj\Debug\net9.0\program014-kombinovana-uloha.AssemblyInfoInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\obj\Debug\net9.0\program014-kombinovana-uloha.AssemblyInfo.cs
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\obj\Debug\net9.0\program014-kombinovana-uloha.csproj.CoreCompileInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\obj\Debug\net9.0\program014-kombinovana-uloha.sourcelink.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\bin\Debug\net9.0\program014-kombinovana-uloha.exe
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\bin\Debug\net9.0\program014-kombinovana-uloha.deps.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\bin\Debug\net9.0\program014-kombinovana-uloha.runtimeconfig.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\bin\Debug\net9.0\program014-kombinovana-uloha.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\bin\Debug\net9.0\program014-kombinovana-uloha.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\obj\Debug\net9.0\program014-kombinovana-uloha.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\obj\Debug\net9.0\refint\program014-kombinovana-uloha.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\obj\Debug\net9.0\program014-kombinovana-uloha.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\obj\Debug\net9.0\program014-kombinovana-uloha.genruntimeconfig.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program014-kombinovana-uloha\obj\Debug\net9.0\ref\program014-kombinovana-uloha.dll

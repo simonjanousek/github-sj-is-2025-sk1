@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "program014-kombinovana-uloha/1.0.0": {
+        "runtime": {
+          "program014-kombinovana-uloha.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "program014-kombinovana-uloha/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

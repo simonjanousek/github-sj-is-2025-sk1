@@ -1,0 +1,15 @@
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\bin\Debug\net9.0\program016-hra2.exe
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\bin\Debug\net9.0\program016-hra2.deps.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\bin\Debug\net9.0\program016-hra2.runtimeconfig.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\bin\Debug\net9.0\program016-hra2.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\bin\Debug\net9.0\program016-hra2.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\obj\Debug\net9.0\program016-hra2.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\obj\Debug\net9.0\program016-hra2.AssemblyInfoInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\obj\Debug\net9.0\program016-hra2.AssemblyInfo.cs
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\obj\Debug\net9.0\program016-hra2.csproj.CoreCompileInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\obj\Debug\net9.0\program016-hra2.sourcelink.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\obj\Debug\net9.0\program016-hra2.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\obj\Debug\net9.0\refint\program016-hra2.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\obj\Debug\net9.0\program016-hra2.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\obj\Debug\net9.0\program016-hra2.genruntimeconfig.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program016-hra2\obj\Debug\net9.0\ref\program016-hra2.dll

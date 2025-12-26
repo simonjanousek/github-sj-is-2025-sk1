@@ -1,0 +1,5 @@
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-011a-vypocet-pi\obj\Debug\net9.0\program-011a-vypocet-pi.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-011a-vypocet-pi\obj\Debug\net9.0\program-011a-vypocet-pi.AssemblyInfoInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-011a-vypocet-pi\obj\Debug\net9.0\program-011a-vypocet-pi.AssemblyInfo.cs
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-011a-vypocet-pi\obj\Debug\net9.0\program-011a-vypocet-pi.csproj.CoreCompileInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program-011a-vypocet-pi\obj\Debug\net9.0\program-011a-vypocet-pi.sourcelink.json
