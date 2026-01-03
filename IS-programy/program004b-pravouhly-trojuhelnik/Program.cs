@@ -1,39 +1,27 @@
-﻿string again = "a";
-while (again == "a")
-{
-    Console.Clear();
-    Console.WriteLine("*******************************");
-    Console.WriteLine("***** pravoúhlý trojúhelník ***");
-    Console.WriteLine("*******************************");
-    Console.WriteLine("******* Šimon Janoušek ********");
-    Console.WriteLine("*******************************");
-    Console.WriteLine();
+﻿Zadání úkolu
 
-    // Vstup hodnoty do programu - špatně řešený
-    //Console.Write("Zadejte první číslo řady: ");
-    //int first = int.Parse(Console.ReadLine());
+vytvořit program, který vykreslí obdélník (případně čtverec)
 
-    //Vstup hodnoty do programu - řešený správně
+program004a-obdelnik
+vstupem dvě budou přirozená čísla
+délka strany a (šířka)
+délka strany b (výška)
 
-    Console.Write("Zadejte výšku (celé číslo): ");
-    int height;
+vytvořit program, který vykreslí pravoúhlý trojúhelník - domácí úkol
+program004b-pravouhly-trojuhelnik  
+sami se v tomto případě rozhodněte, co bude vstupem do programu
+Poznámka
+Tento úkol bude mít více dílčích projektů.
 
-    while (!int.TryParse(Console.ReadLine(), out height))
-    {
-        Console.Write("Nezadali jste celé číslo. Zadejte výšku znovu: ");
-    }
+Úkol místo cvičení 29.10.2025
+Různé obrazce
 
-    
-for (int i = 1; i <= height; i++)
-{
-    for (int j = 1; j <= i; j++)
-    {
-        Console.Write("*");
-    }
-    Console.WriteLine(); // odřádkování
+Každý z vás si vyberte alespoň tři různé obrazce z přiloženého souboru a naprogramujte jejich vykreslení na konzoli.
+Velikost bude vždy řízena vstupem od uživatele.
+Vyberte si lehčí, pak třeba středně obtížný a jeden obtížný.
 
-    }
-    Console.WriteLine();
-    Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
-    again = Console.ReadLine();
-}
+vykreslen první obrazec
+
+vykreslen druhý obrazec
+
+vykreslen třetí obrazec
