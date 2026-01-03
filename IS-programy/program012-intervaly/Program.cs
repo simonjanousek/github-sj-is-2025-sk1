@@ -1,6 +1,8 @@
-﻿string again = "a";
-        
-        while(again == "a") {
+﻿
+        string again = "a";
+
+        while (again.ToLower() == "a")
+        {
             Console.Clear();
             Console.WriteLine("*******************************************");
             Console.WriteLine("***** Intervaly *****");
@@ -9,66 +11,80 @@
             Console.WriteLine("*******************************************");
             Console.WriteLine();
 
+            // Zadání počtu čísel
             Console.Write("Zadejte počet generovaných čísel (celé číslo): ");
             int n;
-            while(!int.TryParse(Console.ReadLine(), out n)) {
-                Console.Write("Nezadali jste celé číslo. Zadejte počet generovaných čísel znovu: ");
+            while (!int.TryParse(Console.ReadLine(), out n) || n < 1)
+            {
+                Console.Write("Nezadali jste celé číslo. Zadejte počet čísel znovu: ");
             }
 
+            // Dolní mez
             Console.Write("Zadejte dolní mez (celé číslo): ");
             int dm;
-            while(!int.TryParse(Console.ReadLine(), out dm)) {
+            while (!int.TryParse(Console.ReadLine(), out dm))
+            {
                 Console.Write("Nezadali jste celé číslo. Zadejte dolní mez znovu: ");
             }
 
+            // Horní mez
             Console.Write("Zadejte horní mez (celé číslo): ");
             int hm;
-            while(!int.TryParse(Console.ReadLine(), out hm)) {
-                Console.Write("Nezadali jste celé číslo. Zadejte horní mez znovu: ");
+            while (!int.TryParse(Console.ReadLine(), out hm) || hm <= dm)
+            {
+                Console.Write("Horní mez musí být větší než dolní. Zadejte znovu: ");
+            }
+
+            // Počet intervalů
+            Console.Write("Zadejte počet intervalů: ");
+            int pocetIntervalu;
+            while (!int.TryParse(Console.ReadLine(), out pocetIntervalu) || pocetIntervalu < 1)
+            {
+                Console.Write("Počet intervalů musí být celé číslo >= 1. Zadejte znovu: ");
             }
 
             Console.WriteLine();
             Console.WriteLine("==========================================");
-            Console.WriteLine("Zadané hodnoty:");
-            Console.WriteLine("Počet čísel: {0}; dolní mez: {1}; horní mez: {2}", n, dm, hm);
+            Console.WriteLine($"Počet čísel: {n}; Dolní mez: {dm}; Horní mez: {hm}; Počet intervalů: {pocetIntervalu}");
             Console.WriteLine("==========================================");
             Console.WriteLine();
 
-            //deklarace pole    
+            // Generování náhodných čísel
             int[] myArray = new int[n];
-
             Random randomNumber = new Random();
 
-            int int1=0;
-            int int2=0;
-            int int3=0;
-            int int4=0;
+            Console.WriteLine("\nNáhodná čísla:");
+            for (int i = 0; i < n; i++)
+            {
+                myArray[i] = randomNumber.Next(dm, hm + 1);
+                Console.Write($"{myArray[i]}; ");
+            }
 
-            Console.WriteLine("\n\nNáhodná čísla:");
-            for(int i=0; i<n; i++) {
-                myArray[i] = randomNumber.Next(dm, hm+1);
-                Console.Write("{0}; ", myArray[i]);
+            // Vypočítáme šířku každého intervalu
+            double intervalSize = (double)(hm - dm + 1) / pocetIntervalu;
 
-                if(myArray[i]<= (0.25 * hm)) {
-                    int1++;
-                }
-                else if(myArray[i] <= (0.5 * hm)) {
-                    int2++;
-                }
-                else if(myArray[i] <= (0.75 * hm)) {
-                    int3++;
-                }
-                else
-                    int4++; 
-           }
+            // Počítadla pro každý interval
+            int[] intervaly = new int[pocetIntervalu];
 
-            Console.WriteLine("\nInterval <{0}, {1}>: {2}", dm, 0.25 * hm, int1);
-            Console.WriteLine("Interval <{0}, {1}>: {2}", 0.25 * hm + 1, 0.5 * hm, int2);
-            Console.WriteLine("Interval <{0}, {1}>: {2}", 0.5 * hm + 1, 0.75 * hm, int3);
-            Console.WriteLine("Interval <{0}, {1}>: {2}", 0.75 * hm  + 1, hm, int4);
+            // Rozřazení čísel do intervalů
+            for (int i = 0; i < n; i++)
+            {
+                int index = (int)((myArray[i] - dm) / intervalSize);
+                if (index >= pocetIntervalu) index = pocetIntervalu - 1; // hrana
+                intervaly[index]++;
+            }
+
+            // Výpis intervalů
+            Console.WriteLine("\nPočet čísel v jednotlivých intervalech:");
+            for (int i = 0; i < pocetIntervalu; i++)
+            {
+                double start = dm + i * intervalSize;
+                double end = start + intervalSize - 1;
+                if (i == pocetIntervalu - 1) end = hm; // poslední interval
+                Console.WriteLine($"Interval <{start:F2}, {end:F2}>: {intervaly[i]}");
+            }
 
             Console.WriteLine();
             Console.WriteLine("Pro opakování programu stiskněte klávesu A");
             again = Console.ReadLine();
-
         }
