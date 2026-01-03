@@ -13,3 +13,11 @@ C:\aaa\github-sj-is-2025-sk1\IS-programy\program007\bin\Debug\net9.0\program007.
 C:\aaa\github-sj-is-2025-sk1\IS-programy\program007\bin\Debug\net9.0\program007.pdb
 C:\aaa\github-sj-is-2025-sk1\IS-programy\program007\obj\Debug\net9.0\program007.genruntimeconfig.cache
 C:\aaa\github-sj-is-2025-sk1\IS-programy\program007\obj\Debug\net9.0\ref\program007.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program007-bubblesort\obj\Debug\net9.0\program007.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program007-bubblesort\obj\Debug\net9.0\program007.AssemblyInfoInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program007-bubblesort\obj\Debug\net9.0\program007.AssemblyInfo.cs
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program007-bubblesort\obj\Debug\net9.0\program007.csproj.CoreCompileInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program007-bubblesort\obj\Debug\net9.0\program007.sourcelink.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program007-bubblesort\obj\Debug\net9.0\program007.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program007-bubblesort\obj\Debug\net9.0\refint\program007.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program007-bubblesort\obj\Debug\net9.0\program007.pdb
