@@ -1,0 +1,15 @@
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\bin\Debug\net9.0\program010a-x+insertion.exe
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\bin\Debug\net9.0\program010a-x+insertion.deps.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\bin\Debug\net9.0\program010a-x+insertion.runtimeconfig.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\bin\Debug\net9.0\program010a-x+insertion.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\bin\Debug\net9.0\program010a-x+insertion.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\obj\Debug\net9.0\program010a-x+insertion.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\obj\Debug\net9.0\program010a-x+insertion.AssemblyInfoInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\obj\Debug\net9.0\program010a-x+insertion.AssemblyInfo.cs
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\obj\Debug\net9.0\program010a-x+insertion.csproj.CoreCompileInputs.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\obj\Debug\net9.0\program010a-x+insertion.sourcelink.json
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\obj\Debug\net9.0\program010a-x+insertion.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\obj\Debug\net9.0\refint\program010a-x+insertion.dll
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\obj\Debug\net9.0\program010a-x+insertion.pdb
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\obj\Debug\net9.0\program010a-x+insertion.genruntimeconfig.cache
+C:\aaa\github-sj-is-2025-sk1\IS-programy\program010a-x+insertion\obj\Debug\net9.0\ref\program010a-x+insertion.dll
