@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program10b-V+shaker", "program10b-V+shaker.csproj", "{CD70E479-387A-B2BE-83E1-B15B4A44C78E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD70E479-387A-B2BE-83E1-B15B4A44C78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD70E479-387A-B2BE-83E1-B15B4A44C78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD70E479-387A-B2BE-83E1-B15B4A44C78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD70E479-387A-B2BE-83E1-B15B4A44C78E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {775D4793-EEDB-4A71-9EB0-C17218C8BA8F}
+	EndGlobalSection
+EndGlobal
