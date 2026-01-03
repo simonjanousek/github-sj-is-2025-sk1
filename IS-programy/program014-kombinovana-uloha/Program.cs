@@ -84,37 +84,28 @@ while (again == "a")
     }
 
     // -----------------------------------------
-    // Seřazení pole - Bubble sort (s optimalizací)
+    // Seřazení pole - Shaker sort neumím - použiji alespoň bubble sort
     // -----------------------------------------
-    int swaps = 0;
-    for (int i = 0; i < n - 1; i++)
+
+   for (int i = 0; i < n - 1; i++)
     {
-        bool swapped = false;
-        for (int j = 0; j < n - i - 1; j++)
+        for(int j = 0; j < n - i - 1; j++)
         {
-            if (numbs[j] > numbs[j + 1])
+            if(myRandNumbs[j] > myRandNumbs[j + 1])
             {
-                int tmp = numbs[j + 1];
-                numbs[j + 1] = numbs[j];
-                numbs[j] = tmp;
-                swaps++;
-                swapped = true;
+
+                {
+                    int tmp = myRandNumbs[j + 1];
+                    myRandNumbs[ j + 1] = myRandNumbs[j];
+                    myRandNumbs[j] = tmp;
+                    change++;
+                }
             }
         }
-
-        if (!swapped)
-            break; // pole je již seřazené
     }
 
-    Console.WriteLine();
-    Console.WriteLine("=============================================");
-    Console.WriteLine("Seřazené čísla:");
-    for (int i = 0; i < n; i++)
-    {
-        Console.Write("{0}; ", numbs[i]);
-    }
-    Console.WriteLine();
-    Console.WriteLine($"Počet prohozů (swaps): {swaps}");
+    
+
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
     again = Console.ReadLine();
