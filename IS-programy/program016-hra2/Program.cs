@@ -12,17 +12,17 @@ class StormAvoider
         Console.WriteLine("Zadej startovní pozici (např. a1 = levý horní roh):");
         (int startRow, int startCol) = ReadPosition(rows, cols);
 
-        // 2. Zadání cílové pozice s kontrolou, aby nebyla stejná jako start
+        // 2. Zadání cílové pozice s kontrolou 
         int targetRow, targetCol;
-        while (true)
+        while (true)//nekonečná smyčka
         {
             Console.WriteLine("Zadej cílovou pozici (např. j10 = pravý dolní roh):");
             (targetRow, targetCol) = ReadPosition(rows, cols);
 
             if (targetRow == startRow && targetCol == startCol)
                 Console.WriteLine("Cíl nemůže být stejný jako start! Zadej jinou pozici.");
-            else
-                break;
+            else //správné zadání cíle
+                break; //vyskočení ze smyčky
         }
 
         // 3. Zadání počtu bouřek (1–20)
@@ -30,7 +30,7 @@ class StormAvoider
         while (true)
         {
             Console.Write("Zadej počet bouřek (1–20): ");
-            if (int.TryParse(Console.ReadLine(), out stormCount) && stormCount >= 1 && stormCount <= 20)
+            if (int.TryParse(Console.ReadLine(), out stormCount) && stormCount >= 1 && stormCount <= 20)//podmínka na počet
                 break;
             Console.WriteLine("Neplatná hodnota. Zadej číslo mezi 1 a 20.");
         }
@@ -40,11 +40,11 @@ class StormAvoider
         int playerCol = startCol;
 
         // 4. Generování bouřek
-        (int, int)[] storms = new (int, int)[stormCount];
+        (int, int)[] storms = new (int, int)[stormCount];//pole dvojic, řadek sloupec
         for (int i = 0; i < stormCount; i++)
         {
             int r, c;
-            do
+            do//generuj dokud není splněn počet a opakuj dokud je to špatně
             {
                 r = rand.Next(0, rows);
                 c = rand.Next(0, cols);
@@ -57,12 +57,12 @@ class StormAvoider
 
         // 5. Vypsání bouřek hráči na začátku
         Console.WriteLine("\nBouřky se nacházejí na souřadnicích:");
-        foreach (var s in storms)
-            Console.WriteLine($"{(char)('a' + s.Item2)}{s.Item1 + 1}");
+        foreach (var s in storms) //projdi celý seznam
+            Console.WriteLine($"{(char)('a' + s.Item2)}{s.Item1 + 1}"); //sloupec a čislo na pismeno,  radek od nuly
 
         Console.WriteLine("\nHra začíná! Pohybuj se pomocí U/D/L/R (nahoru/dolů/levý/pravý)\n");
 
-        bool gameOver = false;
+        bool gameOver = false; //přepínač stavu hry
 
         // 6. Hlavní herní smyčka
         while (!gameOver)
@@ -72,13 +72,13 @@ class StormAvoider
 
             // 6a. Čtení tahu od hráče
             Console.Write("Tvůj tah: ");
-            string move = Console.ReadLine().Trim().ToUpper();
+            string move = Console.ReadLine().Trim().ToUpper();//cekani na zapis, odstraneni mezer, velka pismena
 
             int newRow = playerRow;
             int newCol = playerCol;
 
             // 6b. Zpracování směru
-            switch (move)
+            switch (move)//zadany text a rozhodni
             {
                 case "U": newRow--; break;
                 case "D": newRow++; break;
@@ -145,10 +145,10 @@ class StormAvoider
         while (true)
         {
             string input = Console.ReadLine().Trim().ToLower();
-            if (input.Length >= 2)
+            if (input.Length >= 2)//kontrola delky vstupu
             {
-                int col = input[0] - 'a'; // písmeno -> sloupec
-                if (!int.TryParse(input.Substring(1), out int row)) { Console.WriteLine("Neplatný řádek."); continue; }
+                int col = input[0] - 'a'; // písmeno na sloupec
+                if (!int.TryParse(input.Substring(1), out int row)) { Console.WriteLine("Neplatný řádek."); continue; }//vše za prvním znakem, kontrola jestli na číslo
                 row -= 1; // převedení na index (0–9)
                 if (row >= 0 && row < rows && col >= 0 && col < cols)
                     return (row, col);
@@ -161,15 +161,15 @@ class StormAvoider
     static void DrawMap(int rows, int cols, int playerRow, int playerCol, int targetRow, int targetCol)
     {
         // Vykreslení osy X nahoře (a–j)
-        Console.Write("   ");
-        for (int c = 0; c < cols; c++)
-            Console.Write($"{(char)('a' + c)} ");
+        Console.Write("   ");//odsazeni osy=radky
+        for (int c = 0; c < cols; c++) //všechny sloupce
+            Console.Write($"{(char)('a' + c)} "); //převod čísla sloupce na pismeno
         Console.WriteLine();
 
         // Vykreslení řádků s hráčem a cílem
         for (int r = 0; r < rows; r++)
         {
-            Console.Write($"{r + 1,2} "); // osa Y vlevo
+            Console.Write($"{r + 1,2} "); // osa Y vlevo, radky 1-10
             for (int c = 0; c < cols; c++)
             {
                 if (r == playerRow && c == playerCol)
